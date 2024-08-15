@@ -1,0 +1,84 @@
+/* Background for the body with modern color and margin */
+body {
+    margin: 5%; /* Reduced margin for a more compact design */
+    background-color: #26c2e9; /* Light gray background for a modern look */
+}
+
+/* Container styling with bold colors and shadows */
+.container {
+    width: 50%; /* Increased width for a more spacious container */
+    background-color: #ffffff; /* Pure white for clarity */
+    border: 1px solid #DDDDDD; /* Light gray border */
+    border-radius: 12px; /* More rounded corners */
+    margin: 0 auto; /* Centered container */
+    padding: 20px; /* Added padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    animation: transitionIn-Y-over 0.8s; /* Slightly longer animation for effect */
+}
+
+/* Table cell alignment */
+td {
+    text-align: center;
+    padding: 12px; /* Added padding for spacing */
+}
+
+/* Header text with large size and letter spacing */
+.header-text {
+    font-weight: 700; /* Bolder font weight */
+    font-size: 36px; /* Larger font size for impact */
+    letter-spacing: 2px; /* Increased letter spacing */
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    color: #333333; /* Darker text color for better readability */
+}
+
+/* Sub-text styling with a modern color */
+.sub-text {
+    font-size: 18px; /* Larger font size */
+    color: #8C8C8C; /* Medium gray color for contrast */
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+/* Form label with clear font size and color */
+.form-label {
+    color: #333333; /* Dark gray for better contrast */
+    text-align: left;
+    font-size: 16px; /* Larger font size for clarity */
+    margin-bottom: 8px; /* Margin for spacing */
+}
+
+/* Label cell styling with padding */
+.label-td {
+    text-align: left;
+    padding-top: 15px; /* Increased padding for better spacing */
+}
+
+/* Hover link styling with bold effect */
+.hover-link1 {
+    font-weight: 600; /* Slightly bold text */
+    color: #007BFF; /* Bright blue for links */
+    text-decoration: none; /* No underline */
+}
+
+/* Hover effect for links with transition */
+.hover-link1:hover {
+    opacity: 0.9; /* Slightly reduced opacity for hover effect */
+    transition: opacity 0.3s ease; /* Shorter transition duration */
+}
+
+/* Login button with modern styling */
+.login-btn {
+    margin-bottom: 20px; /* Increased bottom margin for spacing */
+    width: 100%; /* Full width */
+    padding: 12px; /* Added padding for a button feel */
+    background-color: #007BFF; /* Bright blue background */
+    color: #FFFFFF; /* White text color */
+    border: none; /* No border for a clean look */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor for button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
